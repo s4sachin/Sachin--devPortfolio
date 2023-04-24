@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ["./src/**/*.{js,jsx}"],
-  mode: 'jit',
-	theme: {
-		extend: {
+  mode: "jit",
+  theme: {
+    extend: {
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -21,8 +21,7 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
-    },,
-	},
-	plugins: [],
+    },
+  },
+  plugins: [],
 };
-

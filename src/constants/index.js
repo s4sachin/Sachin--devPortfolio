@@ -8,21 +8,22 @@ import {
 	html,
 	css,
 	reactjs,
-	redux,
 	tailwind,
-	nodejs,
-	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	webshop,
+	fit,
+	dragdrop,
 	threejs,
+	angular,
+	angularmaterial,
+	firebase,
+	cura,
+	flair,
+	doormate,
+	controlytics,
+	raymond,
+	vigyanAshram,
+	galvanize,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +47,15 @@ const services = [
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Ionic App Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Prototype Designer",
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Problem Solver",
 		icon: creator,
 	},
 ];
@@ -77,24 +78,24 @@ const technologies = [
 		icon: typescript,
 	},
 	{
+		name: "Angular",
+		icon: angular,
+	},
+	{
 		name: "React JS",
 		icon: reactjs,
 	},
 	{
-		name: "Redux Toolkit",
-		icon: redux,
+		name: "Firebase",
+		icon: firebase,
+	},
+	{
+		name: "Angular Material",
+		icon: angularmaterial,
 	},
 	{
 		name: "Tailwind CSS",
 		icon: tailwind,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
 	},
 	{
 		name: "Three JS",
@@ -104,127 +105,158 @@ const technologies = [
 		name: "git",
 		icon: git,
 	},
-	{
-		name: "figma",
-		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
-	},
 ];
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
+		title: "Angular Developer",
+		company_name: "Galvanize",
+		icon: galvanize,
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "Feb 2022 - March 2023",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Developing and maintaining web applications for Internal Dashboard using Angular and TypeScript technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
 		],
+		website: "https://galvanizetestprep.com/",
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
+		title: "Web Developer Intern",
+		company_name: "Controlytics.AI",
+		icon: controlytics,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "July 2021 - Dec 2021",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Worked on customizing Open-source ThingsBoard platform for collection, analysis and visualization of incoming Telemetry data.",
+			"Developed and deployed custom widgets for the platform using Angular and TypeScript.",
+			"Implemented Attendance Management System, Shift Hours and Violation Tracking features for the platform.",
 		],
+		website: "https://controlytics.ai/",
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
+		title: "Research Fellow, DIC",
+		company_name: "Vigyan Ashram",
+		icon: vigyanAshram,
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "July 2019 - Dec 2019",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Designed and developed an indoor system for the Black Soldier Flies (BSF) using Arduino for controlled Temperature and Humidity conditions (Project- Vegetable Waste Decomposition using BSF).",
+			"Derived psychometric properties of air and developed a mathematical model for the system for improved efficiency i.e 80% (earlier 45%).",
+			"Extended the implementation of Fan-Pad Evaporative Cooling System for Poly-house cooling (Project- Advanced Farming).",
 		],
+		website: "http://vigyanashram.com/",
 	},
 	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
+		title: "Graduate Engineer Trainee",
+		company_name: "Raymond Ltd.",
+		icon: raymond,
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "July 2018 - May 2019",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Supervision and work allotment of 60 personnel for the production of Design Samples.",
+			"Real time decision making and management of process and resources for desired output.",
+			"Collaborated with cross-functional teams including designers, product managers, and workers to create high-quality products.",
 		],
+		website: "https://www.raymond.in/",
 	},
 ];
 
 const testimonials = [
 	{
+		project: "CURA",
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+			"CURA is a wearable IOT device which analyzes motion in patients with restricted movement and notifies the progress via mobile app. The device is designed to be used by patients with restricted movement due to stroke, Parkinson’s disease, or other neurological conditions.",
+		tags: [
+			{
+				name: "wearableTech",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "3DPrinting",
+				color: "green-text-gradient",
+			},
+			{
+				name: "prototyping",
+				color: "pink-text-gradient",
+			},
+		],
+		image: cura,
+		source_code_link: "https://github.com/s4sachin/work-fit-app",
 	},
 	{
+		project: "Fl'Air",
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+			"Designing and developing a wheelchair that is capable of sliding right into a paraglider to challenge the boundaries of Differently-abled. The projects main motive was to make Paragliding a reality to give them a chance to experience the thrill of flying.",
+		tags: [
+			{
+				name: "3DModelling",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "designThinking",
+				color: "green-text-gradient",
+			},
+			{
+				name: "prototyping",
+				color: "pink-text-gradient",
+			},
+		],
+		image: flair,
+		source_code_link: "https://github.com/s4sachin/work-fit-app",
 	},
 	{
+		project: "DoorMate",
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+			"A smart doormat built by integrating a pressure sensor, a microcontroller, and a mobile application. The doormat detects the person standing on it and sends a notification to the user’s mobile phone. It also tracks number of visitors, surroundings and make your home a Smart Home.",
+		tags: [
+			{
+				name: "IOTInTextile",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Automation",
+				color: "green-text-gradient",
+			},
+			{
+				name: "smartTextiles",
+				color: "pink-text-gradient",
+			},
+		],
+		image: doormate,
+		source_code_link: "https://github.com/s4sachin/work-fit-app",
 	},
 ];
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "WorkFit App",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"An Angular fitness app that allows users to train, and view previous trainings. The app uses Firebase and Angularfire to add real-time database functionalities and see the updates almost before we make them!.",
 		tags: [
 			{
-				name: "react",
+				name: "angular",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "angular-material",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "firebase",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: fit,
+		source_code_link: "https://github.com/s4sachin/work-fit-app",
 	},
 	{
-		name: "Job IT",
+		name: "Web Shop",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Web application that enables users to search for products, add them to cart, and place order. Used Angular material and TailwindCSS to structure and design the UI and Stripe for payment integration",
 		tags: [
 			{
-				name: "react",
+				name: "angular",
 				color: "blue-text-gradient",
 			},
 			{
@@ -232,24 +264,24 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "stripe",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: webshop,
+		source_code_link: "https://github.com/s4sachin/webshop",
 	},
 	{
-		name: "Trip Guide",
+		name: "Drag & Drop",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A functional Drag and Drop component which can be extended to any application built entirely using TypeScript. Implemented Inference, Type Transformation, Generics and advanced functionalities of TS.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "ts",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "html",
 				color: "green-text-gradient",
 			},
 			{
@@ -257,8 +289,8 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: dragdrop,
+		source_code_link: "https://github.com/s4sachin/drag-and-drop-TS",
 	},
 ];
 
